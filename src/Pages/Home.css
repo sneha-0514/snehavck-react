@@ -1,0 +1,43 @@
+.page-container {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px #0000000d;
+}
+
+.pic{
+  width: 300px;
+}
+body{
+  margin: 0;
+  background-color:  #52d2d2;
+}
+
+.gallary{
+  display:"flex";
+  gap:"10px";
+  justify-content: space-between;
+}
+.wo{
+  text-align: center;
+}
+
+.font-image{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+  text-align: center;
+  width: 90%;
+  display: block;
+  unicode-bidi: isolate;
+}
+.journey{
+  color: #fff;
+}
+
