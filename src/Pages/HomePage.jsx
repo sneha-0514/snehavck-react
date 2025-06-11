@@ -11,7 +11,7 @@ const HomePage = () => {
             
             <div className="page-container">
                 <div className="picture">
-                    <img src="/assets/vivekanand.jpg" width="100%" height="300px"></img>
+                    <img src="images/vivekanand.jpg" width="100%" height="300px"></img>
                     <div className="font-image">
                         <h1>Welcome to Vivekanand College!</h1>
                         <p className="journey">Your journey to excellence starts here.</p>
@@ -32,8 +32,8 @@ const HomePage = () => {
         </ul>
         <h2>Campus Life & Facilities</h2>
         <div className="gallery">
-         <img src="/assets/college.jpg" width="40%" height="200px"></img>
-         <img src="/assets/campus.jpg" width="40%" height="200px"></img>
+         <img src="images/college.jpg" width="40%" height="200px"></img>
+         <img src="images/campus.jpg" width="40%" height="200px"></img>
          </div>
          <div className="wo">
         <p>Ready to explor our courses?</p>
