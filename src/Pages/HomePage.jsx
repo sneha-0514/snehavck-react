@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/Header/Header";
 import './Home.css';
 import Footer from "../components/Footer/Footer";
+import { Link } from "react-router-dom";
 
 
 const HomePage = () => {
@@ -37,8 +38,8 @@ const HomePage = () => {
          </div>
          <div className="wo">
         <p>Ready to explor our courses?</p>
-        <a href="/coursespage" className="btn">Explore courses</a>
-
+        
+         <Link to="/coursespage" className="btn">Explore Courses</Link>
         </div>
             </div>
             <Footer/>
