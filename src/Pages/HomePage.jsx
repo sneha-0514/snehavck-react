@@ -11,10 +11,10 @@ const HomePage = () => {
             
             <div className="page-container">
                 <div className="picture">
-                    <img src="images/vivekanand.jpg" width="100%" height="300px"></img>
+                    <img src="images/vivekanand.jpg" width="100%" height="300px" className="pic"></img>
                     <div className="font-image">
                         <h1>Welcome to Vivekanand College!</h1>
-                        <p className="journey">Your journey to excellence starts here.</p>
+                        <h4>Your journey to excellence starts here.</h4>
                         <a className="btn" href="./addmisionpage">Apply now</a>
                     </div>
                 </div>

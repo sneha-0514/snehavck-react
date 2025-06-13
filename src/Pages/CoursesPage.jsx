@@ -50,7 +50,6 @@ const CoursesPage = () => {
                     <li>Master of Arts (M.A.) (2 years)</li>
                 </ul>
                 <h2>Program Details & Fee Structure (Annual)</h2>
-                <h2>Program Details & Fee Structure (Annual)</h2>
 <table className="program-table">
   <thead>
     <tr>
