@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/Header/Header";
 import './addmision.css';
 import Footer from "../components/Footer/Footer";
+import { Link } from "react-router-dom";
 
 const AddimisionPage = () =>{
     return(
@@ -51,7 +52,7 @@ const AddimisionPage = () =>{
         <li><b>Merit List & Interview</b>: Check the merit list and attend the interview if shortlisted.</li>
         <li><b>Fee Payment</b>: Complete the admission by paying the required fees.</li>
        </ol>
-       <p>For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our<a href="/coursespage" >Courses page</a> or <a href="/contactpage" >Contact us</a> direct </p>
+       <p>For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our <Link to="/coursespage">courses page</Link> or <Link to="/contactpage">contact page</Link> direct </p>
 
             </div>
             <Footer/>

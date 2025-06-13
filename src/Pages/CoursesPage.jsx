@@ -3,6 +3,7 @@ import Header from "../components/Header/Header";
 import './courses.css';
 import './Home.css';
 import Footer from "../components/Footer/Footer";
+import { Link } from "react-router-dom";
 const CoursesPage = () => {
     return(
         <div>
@@ -88,7 +89,7 @@ const CoursesPage = () => {
      <p>In addition to traditional degree programs, we offer various certificate and diploma courses in areas like Digital Marketing, Web Development, Data Analytics, and Soft Skills Development, providing specialized training for career enhancement.</p>
      <div className="prn">
      <p>Have questions about a specific course?</p>
-        <a className="btn" href="./contactpage">Inquire about course</a>
+     <Link to ="/contactpage" className="btn">Inquire about courses</Link>
      </div>
      </div>
      <Footer/>
